@@ -4,7 +4,7 @@
       echo 'Could not connect to mysql on ' . DB_HOST . '\n';
       exit;
   }
-  echo 'Connecte to mysql <br />';
+  echo 'Connected to mysql <br />';
   if(!mysql_select_db(DB_NAME, $dbconn)) {
       echo 'Could not use database ' . DB_NAME . '\n';
       echo mysql_error() . '\n';
